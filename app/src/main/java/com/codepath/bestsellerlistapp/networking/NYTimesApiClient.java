@@ -18,14 +18,14 @@ import retrofit2.converter.gson.GsonConverterFactory;
  *
  *
  * IMPORTANT INSTRUCTIONS BELOW ===========================================================
- * TODO: You have to update API_KEY variable with your own NY-Times developer api key, see
+ * Done: You have to update API_KEY variable with your own NY-Times developer api key, see
  * https://developer.nytimes.com/get-started to create your own developer account,
  * after copy and paste the API key under your Account -> Apps -> <Your App> -> API Keys
  */
 public class NYTimesApiClient {
 
-    // TODO: Replace the below API key with your own generated key
-    private static final String API_KEY = "<YOUR-API-KEY-GOES-HERE>";
+    // Done: Replace the below API key with your own generated key
+    private static final String API_KEY = "lsdvX465WQtIozcsW0hjJsxxXYQOiStm";
     private NYTimesService nyTimesService;
 
     public NYTimesApiClient() {
